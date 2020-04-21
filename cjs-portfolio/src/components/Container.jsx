@@ -20,7 +20,6 @@ class Container extends React.Component {
         <Home />
         <Projects />
         <About />
-        <Contact />
       </div>
     )
   }
