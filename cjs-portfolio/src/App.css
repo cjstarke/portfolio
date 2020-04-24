@@ -98,6 +98,7 @@ header a, header a:visited {
 .homecard div {
   font-size: 3vh;
   margin: 1vh 1.2vh;
+  line-height: 1.6;
 }
 .myname {
   display: flex;
