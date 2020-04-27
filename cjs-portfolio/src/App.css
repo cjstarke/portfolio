@@ -170,6 +170,8 @@ header a, header a:visited {
 .links a, .links a:visited {
   background-color: #8d8699;
   color: white;
+  font-weight: 900;
+  font-size: 1.8vw;
   text-align: center;
   text-decoration: none;
   padding: 2vh 0;
@@ -225,6 +227,14 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height: 30vw;
+margin-left: 2vw;
+}
+.about-links div {
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+}
+.about-links p {
 margin-left: 2vw;
 }
 
