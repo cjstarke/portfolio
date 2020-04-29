@@ -238,3 +238,111 @@ margin-left: 2vw;
 margin-left: 2vw;
 }
 
+@media only screen and (max-width: 800px) {
+  #home-section {
+    flex-direction: row-reverse;
+  }
+  #home-section img {
+    display: none;
+ 
+  }
+  header {
+    justify-content: space-evenly;
+  }
+  .homecard {
+    position: relative;
+    top: 0;
+    right: 0;
+    max-width: 95vw;
+  }
+  .myname {
+    right: 0;
+  }
+  .odd {
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .even {
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .project img {
+    width: 70vw;
+    margin: 6vh 0;
+  }
+  .project-img {
+    width: 80vw;
+  }
+  .project-text {
+    width: 80vw;
+    padding: 2vh 2vw;
+  }
+  .project-text h2 {
+    margin: 1vh 0;
+    font-size: 6vw;
+  }
+  .project-text div {
+    font-size: 3vw;
+    margin: 1vh;
+    line-height: 1.3;
+  }
+  .links a, .links a:visited {
+    font-size: 4vw;
+  }
+  .links {
+    height: 8vh;
+  }
+  i {
+    font-size: 7vw;
+    margin: 2vh 2vw;
+  }
+  svg {
+    width: 11vw;
+  }
+  .about-info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text{
+    margin: 0;
+    padding: 2vw;
+    line-height: 1.3;
+    height: 35vw;
+    width: 70vw;
+    font-size: 3.2vw;
+    background-color: #8d8699;
+    color: white;
+    border: 4px white solid;
+    box-shadow: 2px 4px 10px rgba(0,0,0,.3);
+  
+  }
+  .about-links{
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 25vw;
+  width: 95vw;
+  margin-left: 0;
+  }
+  .about-links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vw;
+    width: 35vw;
+  }
+  .about-links p {
+    margin: 2vh 0;
+  }
+
+
+}
+
