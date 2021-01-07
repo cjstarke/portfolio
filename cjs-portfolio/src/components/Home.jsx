@@ -8,7 +8,7 @@ function Home(props) {
         <div className="myname"><p>CJ Starke</p></div>
         <div className="homecard">
           <h1>Software Engineer</h1>
-          <div>Hello there! I am a  fullstack developer with a focus on React, Javascript, Ruby, Ruby on Rails, and MongoDB. </div>
+          <div>Hello there! I am a  fullstack developer with a focus on React, Javascript, Ruby on Rails, and MongoDB. </div>
         </div>
       </div>
 

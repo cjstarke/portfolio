@@ -8,7 +8,7 @@ function About(props) {
       <h1 className="section-title">About Me</h1>
       <div className="about-info">
         <div className="about-text">
-          <p>I am a Software Engineer living in Montclair, New Jersey. I have a background in Digital Marketing that has taught me to approach every project with an imaginative eye. In my free time you might find me making some ice cream, watching a rom-com, or strumming the  ol' acoustic. I haven't read a book in five years.</p>
+          <p>I am a Software Engineer living in New Jersey. I have a background in Digital Marketing that has taught me to approach every project with an imaginative eye. In my free time you might find me making some ice cream, watching a rom-com, or recording music. I ran my first marathon last year, and I once ate 13 Taco Bell tacos in one sitting.</p>
         </div>
         <div className="about-links">
           <div>
@@ -20,7 +20,7 @@ function About(props) {
             <p>Linkedin</p>
           </div>
           <div>
-            <a href='/files/CJStarke.pdf' download><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="file" class="svg-inline--fa fa-file fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48z"></path></svg></a>
+            <a href='/files/ChristopherStarke.pdf' download><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="file" class="svg-inline--fa fa-file fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48z"></path></svg></a>
             <p>Resume</p>
           </div>
         </div>
